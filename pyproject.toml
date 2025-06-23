@@ -4,9 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "correios-frete-sdk"
-version = "0.1.0"
+version = "0.1.2"
 description = "SDK para cálculo de frete com os Correios"
-authors = [{ name="Seu Nome", email="seu@email.com" }]
+authors = [{ name="Thiago C Soares", email="contact@thiagocsoares.com.br" }]
 readme = "README.md"
 requires-python = ">=3.7"
-dependencies = ["requests"]
+dependencies = [
+    "requests",
+    "types-urllib3"
+]

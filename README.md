@@ -19,6 +19,11 @@ Foi criado com foco em:
 
 ## Instalação
 
+### Dependências principais
+
+```bash
+pip install requests
+
 Para usar localmente:
 
 ```bash
