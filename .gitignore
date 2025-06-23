@@ -192,3 +192,12 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Python virtual environments
+.env
+.venv
+env/
+venv/
+
+# Local Commitizen configuration (optional to ignore)
+.cz.yaml
